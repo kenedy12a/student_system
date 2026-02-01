@@ -22,18 +22,29 @@
    1. Start MySQL server (XAMPP or MySQL Server)
    2. Create a database named `student_system`
    3. Run the following SQL query to create the table:
-      USE student_system;
-      CREATE TABLE students (
+
+      
+
+
+
+            USE student_system;
+            CREATE TABLE students (
+      
              id INT AUTO_INCREMENT PRIMARY KEY,
              first_name VARCHAR(100) NOT NULL,
+      
              last_name VARCHAR(100) NOT NULL,
              email VARCHAR(150) UNIQUE,
+      
              gender VARCHAR(10),
              date_of_birth DATE,
 
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-      );
+          );
+
+
+
 
                 ---------------------------API endpoint list---------------------
          GET     /students
