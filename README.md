@@ -1,24 +1,24 @@
-    ------------------------Project Title------------------------
+                                    ------------------------Project Title------------------------
   STUDENT MANAGEMENT SYSTEM
 
-    --------------------Group Members Names----------------------
+                                    --------------------Group Members Names----------------------
   - GANZA ERIC
   - CYIZA KENEDY
   - SHEMA SHANI
   - HABIMANA HUSSENI
   - KEZA UWAMWIZA FARHNAH
   
-        ---------------------Project Description------------------------
+                                   ---------------------Project Description------------------------
   A Node.js and Express REST API for managing student records, featuring a MYSQL database and full CRUD(Create,Read,Update,Delete).
 
-    -------------------------Technologies Used------------------------
+                                   -------------------------Technologies Used------------------------
   - Node.js & Express.js – Backend runtime
   - MySQL – Database
   - dotenv – Environment variables
   - Postman / Thunder Client – API testing
   - Key Dependencies: `mysql` , `dotenv` , `body-parser` , `nodemon`
 
-        ---------------------------Database Setup steps--------------------------
+                                 ---------------------------Database Setup steps----------------------
    1. Start MySQL server (XAMPP or MySQL Server)
    2. Create a database named `student_system`
    3. Run the following SQL query to create the table:
@@ -44,7 +44,7 @@
           );
 
 
-          ---------------------------API endpoint list---------------------
+                                  ---------------------------API endpoint list---------------------
          GET     /students
              → Retrieve all students
 
@@ -60,7 +60,7 @@
        DELETE  /students/:id
              → Delete a student from the database
 
-          -----------------------How to run the project locally------------------
+                                 -----------------------How to run the project locally------------------
       
      / 
        1. Clone the repository
